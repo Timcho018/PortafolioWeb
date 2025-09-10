@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sobre mí — Jimmy</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styleSobremi.css">
+</head>
+<body>
+  <canvas id="canvas-bg" class="canvas-bg" aria-hidden="true"></canvas>
+  <header>
+    <a href="index.html" class="logo">Jimmy</a>
+    <i class="fas fa-bars menu-toggle"></i>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="sobremi.html" class="active">Sobre mí</a>
+      <a href="proyectos.html">Proyectos</a>
+      <a href="habilidades.html">Habilidades</a>
+      <a href="experiencia.html">Experiencia</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+  <main class="about-main">
+    <div class="container wrap">
+      <div class="glass-card row align-items-center gx-5">
+        <div class="col-lg-5 d-flex flex-column align-items-center justify-content-center side-left">
+          <div class="holo-wrap" aria-hidden="true">
+            <div class="holo-ring"></div>
+            <img src="img/perfil.png" alt="Jimmy" class="holo-photo">
+            <div class="holo-glow"></div>
+          </div>
+          <div class="name-block text-center mt-4">
+            <h2>Hola, soy <span class="accent">Jimmy</span></h2>
+            <p class="muted">Ingeniero en formación • Explorando el mundo digital</p>
+          </div>
+        </div>
+        <div class="col-lg-7 side-right">
+          <div class="intro-title">
+            <h3>Sobre mí</h3>
+            <p class="lead">No soy un párrafo: soy una colección de acciones, proyectos y obsesiones por el detalle.</p>
+          </div>
+          <div class="bubbles-grid">
+            <div class="bubble" data-delay="0">
+              <div class="bubble-inner">
+                <i class="fa-solid fa-brain"></i>
+                <h5>Curioso</h5>
+                <p>Aprendo rápido; experimento con nuevas tecnologías y patrones para mejorar cada proyecto.</p>
+              </div>
+            </div>
+            <div class="bubble" data-delay="120">
+              <div class="bubble-inner">
+                <i class="fa-solid fa-lightbulb"></i>
+                <h5>Diseño con propósito</h5>
+                <p>Busco que los productos digitales sean claros y fáciles de usar; la utilidad va antes que la estética.</p>
+              </div>
+            </div>
+            <div class="bubble" data-delay="240">
+              <div class="bubble-inner">
+                <i class="fa-solid fa-code"></i>
+                <h5>Mentalidad Full-Stack</h5>
+                <p>Estoy enfocado en los fundamentos, pero me emociona la idea de entender el desarrollo completo: desde el frontend hasta el backend.</p>
+              </div>
+            </div>
+            <div class="bubble" data-delay="360">
+              <div class="bubble-inner">
+                <i class="fa-solid fa-rocket"></i>
+                <h5>Iniciativa de Proyectos</h5>
+                <p>He trabajado en ejercicios de clase, pequeñas páginas web y proyectos guiados para aplicar lo aprendido.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="timeline-section">
+        <div class="timeline" id="timeline">
+          <div class="timeline-item left">
+            <div class="content">
+              <h5>2023 — Inicio en Ingeniería de Sistemas</h5>
+              <p>Ingresé a la universidad y empecé mi camino en la tecnología; primeras materias y fundamentos sólidos.</p>
+            </div>
+          </div>
+          <div class="timeline-item right">
+            <div class="content">
+              <h5>2024 — Primeros proyectos</h5>
+              <p>Desarrollé pequeñas apps y participé en proyectos en equipo, donde me centré en la lógica de programación y la colaboración.</p>
+            </div>
+          </div>
+          <div class="timeline-item left">
+            <div class="content">
+              <h5>2025 — 3er ciclo: profundizando</h5>
+              <p>Me encuentro actualmente en el 3er ciclo: bases de datos, diseño web, estructuras de datos y proyectos algo más robustos.</p>
+            </div>
+          </div>
+          <div class="timeline-item right">
+            <div class="content">
+              <h5>Próximos pasos</h5>
+              <p>Seguir construyendo, colaborar en proyectos reales y ganar experiencia práctica con tecnologías web modernas.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <p>© 2025 Jimmy. Todos los derechos reservados.</p>
+  </footer>
+  <div id="cursorNeb" class="cursor-neb" aria-hidden="true"></div>
+  <div id="cursorNebTrail" class="cursor-trail" aria-hidden="true"></div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/scriptSobremi.js"></script>
+</body>
+</html>
